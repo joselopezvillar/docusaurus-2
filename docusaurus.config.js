@@ -23,8 +23,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'es',
+    locales: ['es'],
   },
 
   presets: [
@@ -57,9 +57,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'A clase do Peque',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Logo de A clase do Peque',
           src: 'img/logo.svg',
         },
         items: [
@@ -106,11 +106,25 @@ const config = {
               },
             ],
           },
+              {
+                label: 'Proba1',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              },
+              {
+                label: 'Proba2',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'Proba3',
+                href: 'https://twitter.com/docusaurus',
+              },
+            ],
+          },          
           {
-            title: 'More',
+            title: 'Máis',
             items: [
               {
-                label: 'Blog',
+                label: 'Blogue',
                 to: '/blog',
               },
               {
@@ -120,7 +134,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Obra baixo Licenza Creative Commons Atribución-CompartirIgual 4.0 Internacional. ${new Date().getFullYear()} A Clase do Peque. José López Villar. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
